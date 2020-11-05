@@ -458,4 +458,9 @@ button:hover {
   }
 
 
-
+/*cart page*/
+.cart-content{
+  width: 80%;
+  max-width: 1100px;
+  margin: auto;
+}
