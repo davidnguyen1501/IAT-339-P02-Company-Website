@@ -471,14 +471,8 @@ button:hover {
   display: flex;
 
   position: relative;
-  border-bottom: 1px solid #D6D6D6;
-  padding-bottom: 20px;
 }
 
-.cart-item{
-  width:50px;
-  height: 50px;
-  overflow: hidden;
-  margin-right: 10px;
-  background-color: #d6d6d6;
-}
+
+
+
