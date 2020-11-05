@@ -126,7 +126,7 @@ section{
   list-style-type: none;
   margin:0;
   padding:0;
-  background-color: #0D1926;
+  background-color: #4e0404;
   text-align: center;
 }
 #home-nav nav{
@@ -171,13 +171,13 @@ section{
     display: inline;
     margin: 0;
     padding: 0.45rem;
-    background-color: #0D1926;
+    background-color: #4e0404;
     color: white;
 }
 .center{
   width: 100%;
   text-align: center;
-  background-color: #0D1926;
+  background-color: #4e0404;
   padding: 0.65rem;
 }
 
@@ -370,7 +370,7 @@ button:hover {
   display: block;
   margin:8px;
   width: 200px;
-  color: #6C6E70;
+  color: #d8f56e;
   text-decoration:none;
 }
 .support-child h5{
@@ -378,7 +378,7 @@ button:hover {
   margin-top: 1em;
   margin-left: 0;
   font-size: 10px;
-  color: #6C6E70;
+  color: #d8f56e;
   text-decoration: none;
 }
 .support-child a {
@@ -413,8 +413,23 @@ button:hover {
   width: 40%;
   text-align: center;
 }
-
-
+/*use to drop decorating shadows*/
+.shadowdrop{
+  background-color: white;
+  padding-left: 0.9em;
+  position: relative;
+  padding-top: 0.9em;
+  display: flex;
+  margin-bottom: 1rem;
+  flex-wrap:wrap;
+  flex-direction: row;
+  width: 100%;
+  overflow: auto;
+  justify-content:space-around;
+  align-items: center;
+  align-content: center;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 /*Product listing page*/
 .product_main{
