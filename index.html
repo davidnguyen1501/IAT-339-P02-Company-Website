@@ -1,0 +1,160 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="css/flexbox.css" rel="stylesheet">
+    <title>P2 WEB</title>
+  </head>
+  <body>
+    <!--Navigation bar-->
+          <section class="navnav">
+                  <nav id="home-nav">
+                    <div class="center">
+                      <ul>
+                          <li><a class="button-nav" href="index.html">Home</a></li>
+                          <li><a class="button-nav" href="productspage.html">Products</a>
+                          <li><a class="button-nav" href="#">About</a></li>
+                          <li><a class="button-nav" href="cart.html">Cart</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+        </section>
+
+        <!--Contents for carousel-->
+        <section id="carrousel-1">
+          <div class="slideshow-container">
+            <div class="carousel fade">
+              <div class="numbertext">1 / 3</div>
+              <div class="text">NEW MECHANICAL KEYBOARD</div>
+              <img src="https://mms.businesswire.com/media/20200714005896/en/805435/5/RazerPhoto.jpg?download=1" style="width:100%">
+            </div>
+            <div class="carousel  fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="https://mms.businesswire.com/media/20200714005896/en/805435/5/RazerPhoto.jpg?download=1" style="width:100%">
+            </div>
+            <div class="carousel  fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="https://mms.businesswire.com/media/20200714005896/en/805435/5/RazerPhoto.jpg?download=1" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+
+          <div class="button-center">
+            <button href="productspage.html">LEARN MORE</button>
+          </div>
+        </section>
+
+        <h1 style="text-align:center;"> News from the Store </h1>
+        <section id="news">
+
+          <h2 style="text-align:center;"> Our approach to reopening stores</h2>
+          <div class="detailed-news" style="margin-top:2.5em;">
+            <div class="spec-parent">
+              <div class="spec-child"><img src=# alt="news image" style="max-width:50%;max-height:50%;"></div>
+              <div class="spec-child"><p>After months of closure because of COVID-19, many of our stores began announcing their reopening dates as the province moved through its recovery plan under new health and safety regulations set out by WorkSafeBC.</p></div>
+          </div
+          >
+          <h2 style="text-align:center;"> New items coming soon! </h2>
+          <div class="detailed-news" style="margin-top:2.5em;">
+            <div class="spec-parent">
+              <div class="spec-child"><img src=# alt="news image" style="max-width:50%;max-height:50%;"></div>
+              <div class="spec-child"><p>We're excited that we will be importing a new set of computer equipments next month, please keep in touch with us for more details.</p></div>
+            </div>
+          </div>
+                
+        </section>
+
+        <h1 style="text-align:center;"> Deals </h1>
+        <section id="featured">
+          <div class="featured-parent-high">
+            <div class="featured-parent">
+              <div class="featured-child">
+                  <h2> ULTIMATE PRECISION </h2>
+                  <h4> Accurate and feature rich gaming mouse</h4>
+                  <img src="images/placebo.png" alt="mouse" class="center">
+                  <div class="button-center">
+                    <button href="#">Learn More</button>
+                    <button href="#">Buy</button>
+                  </div>
+              </div>
+
+              <div class="featured-child">
+                  <h2> THE SOUND OF ESPORTS</h2>
+                  <h4> Check out our new competitive noise cancelling headphones</h4>
+                  <img src="images/placebo.png" alt="headphone" class="center">
+                  <div class="button-center">
+                    <button href="#">Learn More</button>
+                    <button href="#">Buy</button>
+                  </div>
+              </div>
+            </div>
+        </section>
+
+        <!--Footer information-->
+        <section id="footer">
+
+        <section>
+          <div class="support-parent">
+                <div class="support-child">
+                  <h4>Services</h4>
+                  <h5><a href="#">Contact Us</a></h5>
+                  <h5><a href="#">Support</a></h5>
+                </div>
+                <div class="support-child">
+                  <h4>About Us</h4>
+                  <h5><a href="#">About Us</a></h5>
+                  <h5><a href="#">News</a></h5>
+                  <h5><a href="#">Git Hub</a></h5>
+                </div>
+                <div class="support-child">
+                  <h4>SIGN UP FOR MORE UPDATES</h4>
+                  <form> <input type="text" name="Text Input Field" value="Email Address" > </form>
+                  <a href="#"  class="sub-button" role="button">SUBMIT</a>
+                </div>
+          </div>
+        </section>
+        </section>
+
+        <!--js code for carousel-->
+        <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+
+          // Next/previous controls
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          // Thumbnail image controls
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("carousel");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+          }
+        </script>
+
+  </body>
+</html>
