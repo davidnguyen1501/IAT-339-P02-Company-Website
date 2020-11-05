@@ -116,7 +116,20 @@ section{
 /*text style styling*/
 #h1-style h1{
   color: black;
-  font-family: Nunito;
+}
+
+.footer-link{
+  font-size: 13px;
+  color: white;
+}
+
+.footer-link:hover{
+  color: rgb(252, 185, 222);
+  transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  -ms-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -webkit-transition: color 0.2s linear;
 }
 
 /*modular patterns elements styling*/
