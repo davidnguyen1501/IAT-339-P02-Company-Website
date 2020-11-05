@@ -87,7 +87,7 @@ section{
   -webkit-transition: color 0.2s linear;
 }
 .main-nav a:hover{
-  color: #F6AC67;
+  color: #f0ff23;
   transition: color 0.2s linear;
   -o-transition: color 0.2s linear;
   -ms-transition: color 0.2s linear;
@@ -108,7 +108,7 @@ section{
     display: inline-block;
     margin: 0;
     padding: 0.45rem;
-    background-color: #0D1926;
+    background-color: #4e0404;
     color: white;
 }
 
@@ -354,7 +354,7 @@ button:hover {
   padding-top: 1em;
 }
 .support-parent{
-  background-color: #f5f5f5;
+  background-color: #4e0404;
   padding-left: 0.9em;
   position: relative;
   padding-top: 0.9em;
