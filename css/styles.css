@@ -521,3 +521,12 @@ a.button {
   margin: auto;
 }
 
+.payment-container{
+  width: 60%;
+  margin: auto;
+}
+
+.col-50 {
+  -ms-flex: 50%; 
+  flex: 50%;
+}
