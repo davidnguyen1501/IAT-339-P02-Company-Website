@@ -24,10 +24,21 @@ body{
 /*text styling*/
 h1{
   color: #ff0000;
-  font-size: 2.5em;
+  font-family: 'Oswald';
+  font-size: 60px;
   text-align: center;
 }
+h2{
+  font-family: 'Nunito';
+  font-size: 40px;
+}
 
+p{
+  font-family: 'Archivo';
+}
+body {
+  font-family: 'Archivo';
+}
 /*image styling*/
 .center {
   display: block;
@@ -40,6 +51,7 @@ a{
   text-decoration: none;
 }
 #text-styling h1{
+  font-family:'BioRhyme';
   color: #F6AC67;
   font-size: 2.5em
 }
