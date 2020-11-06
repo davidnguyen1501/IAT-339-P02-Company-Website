@@ -571,13 +571,14 @@ input[type=text] {
   line-height: 1.5
 }
 
+/*make about us more responsive*/
 @media only screen and (max-width: 1000px) {
   .about-us-img {
     width: 50%;
     height: 500 px
   }
   .about-us-text{
-    width:100%;
+    width:80%;
     height:200px;
    }
 }

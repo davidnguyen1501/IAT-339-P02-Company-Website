@@ -40,6 +40,43 @@
             </div>
           </section>
 
+          <div class="container">
+            <form action="action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="email">Email</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="email" name="email" placeholder="abc@example.com">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="country">Common Questions</label>
+                </div>
+                <div class="col-75">
+                  <select id="questions" name="questions">
+                    <option value="q1">I have a problem with one of my recent purchase</option>
+                    <option value="q2">I can't find what I need in your store!</option>
+                    <option value="q3">The item that I bought hasn't arrived yet</option>
+                    <option value="q4">I don't know how to use my purchased items!</option>
+                    <option value="q5">I have other questions</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="comment">Additional comments</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="comment" name="comment" placeholder="Write down your questions here" style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
 
 
          <!--Footer information-->
