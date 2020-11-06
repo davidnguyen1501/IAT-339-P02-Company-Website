@@ -526,7 +526,21 @@ a.button {
   margin: auto;
 }
 
-.col-50 {
-  -ms-flex: 50%; 
-  flex: 50%;
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/*for a more responsive billing on phone*/
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
 }
