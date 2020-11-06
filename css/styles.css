@@ -166,6 +166,7 @@ section{
   -moz-transition: color 0.2s linear;
   -webkit-transition: color 0.2s linear;
 }
+
 #home-nav ul{
     margin:0;
     padding:0;
@@ -184,6 +185,10 @@ section{
     padding: 0.45rem;
     background-color: #4e0404;
     color: white;
+}
+
+#home-nav.icon{
+  display:none;
 }
 .center{
   width: 100%;
