@@ -37,6 +37,10 @@ h5{
   color: #ff0000;
   font-size: 30px;
 }
+h6{
+  color: #000000;
+  font-size: 30px;
+}
 p{
   font-family: 'Archivo';
 }
