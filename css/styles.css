@@ -12,16 +12,14 @@ body{
   display: block;
   margin:0px;
   top:0;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 }
 
-body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
+
 
 /*text styling*/
 h1{
@@ -195,8 +193,8 @@ section{
 }
 
 /*Button Styles*/
-button {
-  background-color: rgb(73, 37, 42);
+a.button {
+  background-color: rgb(228, 133, 145);
   font-weight: bold;
   color: rgb(242, 86, 39);
   text-decoration: none;
@@ -206,11 +204,19 @@ button {
   font-size: 1em;
 }
 
-button:hover {
+a.button:hover {
   background-color: rgb(226, 225, 138);
   color: rgb(106, 39, 151);
 }
 
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
 
 .slideshow-container {
   position: relative;
