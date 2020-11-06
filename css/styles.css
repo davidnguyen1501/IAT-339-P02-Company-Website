@@ -192,6 +192,7 @@ section{
   padding: 0.65rem;
 }
 
+
 /*Button Styles*/
 a.button {
   background-color: rgb(228, 133, 145);
@@ -526,21 +527,10 @@ a.button {
   margin: auto;
 }
 
-
 input[type=text] {
   width: 100%;
   margin-bottom: 20px;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 3px;
-}
-
-/*for a more responsive billing on phone*/
-@media (max-width: 800px) {
-  .row {
-    flex-direction: column-reverse;
-  }
-  .col-25 {
-    margin-bottom: 20px;
-  }
 }
