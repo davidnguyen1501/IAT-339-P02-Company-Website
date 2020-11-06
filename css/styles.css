@@ -219,14 +219,17 @@ a.button {
   color: initial;
 }
 
+/*carousel css */
+* {box-sizing:border-box}
 .slideshow-container {
   position: relative;
   margin: auto;
-  min-height: 100vh;
+  max-width: 2000px;
 }
 
 .carousel {
   display: none;
+  width: 100%;
 }
 
 .prev, .next {
@@ -254,14 +257,13 @@ a.button {
 }
 
 .text {
-  padding-top: 0.9em;
   color: #f2f2f2;
-  font-size: 50px;
+  font-size: 40px;
   padding: 8px 12px;
   position: absolute;
-  top: 48px;
-  left:108px;
+  top: 8px;
   width: 100%;
+  text-align: center;
 }
 .text-bot {
   padding-top: 0.9em;
@@ -534,3 +536,4 @@ input[type=text] {
   border: 1px solid #ccc;
   border-radius: 3px;
 }
+
