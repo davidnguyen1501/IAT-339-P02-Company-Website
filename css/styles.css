@@ -542,3 +542,42 @@ input[type=text] {
   border-radius: 3px;
 }
 
+/*about us*/
+.about-us{
+  height: 90vh;
+  width: 100%;
+  display: flex;        
+}
+.about-us-text{
+  max-width: 736px;
+  text-align: center;
+  float: right;
+}
+
+.about-us-img{
+  max-width: 50%;;
+  height: 100%;
+  overflow: hidden;
+}
+
+.about-us-img img{
+  max-width: 100%; 
+  display:block; 
+  height: auto;
+}
+
+.about-us-text p{
+  font-size: 2rem;
+  line-height: 1.5
+}
+
+@media only screen and (max-width: 1000px) {
+  .about-us-img {
+    width: 50%;
+    height: 500 px
+  }
+  .about-us-text{
+    width:100%;
+    height:200px;
+   }
+}
